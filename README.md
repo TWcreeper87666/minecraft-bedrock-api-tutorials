@@ -1,5 +1,6 @@
 # 腳本 API 基礎教學
 全部都是個人經驗，不喜勿噴
+[![介紹影片](https://img.youtube.com/vi/mBSe_FHtWWo/maxresdefault.jpg)](https://youtu.be/mBSe_FHtWWo)
 
 官方的教學
 - https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/developer-tools?view=minecraft-bedrock-stable
