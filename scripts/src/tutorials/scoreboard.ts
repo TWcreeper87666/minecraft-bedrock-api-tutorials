@@ -3,9 +3,8 @@ import { Player, ScoreboardObjective, world } from "@minecraft/server";
 /* 
 scoreboard : https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/scoreboard?view=minecraft-bedrock-stable
 
-有 dynamicProperty 我就很少用記分板了，因為有人會用 msg @a[scores={test=50..}] 二分法來偷看別人資料😡
-優點: 可以在遊戲中修改、做排行榜
-缺點: 資料可以被玩家偷看
+優點: 可以直接在遊戲中修改、做排行榜
+不過有 dynamicProperty 我就很少用記分板了
 */
 
 export function main(player: Player) {
