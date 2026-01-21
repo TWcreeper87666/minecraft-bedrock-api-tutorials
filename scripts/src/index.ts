@@ -51,4 +51,3 @@ system.beforeEvents.startup.subscribe(({ customCommandRegistry }) => {
   );
 });
 
-console.log("test");

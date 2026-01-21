@@ -1,5 +1,10 @@
 # 腳本 API 基礎教學
-全部都是個人經驗，非喜勿噴
+全部都是個人經驗，不喜勿噴
+
+官方的教學
+- https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/developer-tools?view=minecraft-bedrock-stable
+- `@minecraft/server` https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/minecraft-server?view=minecraft-bedrock-stable
+
 
 ## BEHAVIOR PACK
 - change uuid https://www.uuidgenerator.net/
@@ -13,30 +18,47 @@
 - 請同步修改 manifest.json 跟 npm 套件版本
 - beforeEvents 的 chatSend 什麼時候才能到穩定版啦😭
 
-## VSC
-- npm 套件請確保與行為包 manifest.json 裡面的版本相符，不然可能會有一些不能用、可以用但沒出現的問題
-https://www.npmjs.com/package/@minecraft/server?activeTab=versions
-- npm install @minecraft/server
-- npm install @minecraft/server-ui
+## npm
+安裝 Node.js https://nodejs.org/zh-tw/download
 
-- npm install typescript
+將套件裝在 `%appdata%\Minecraft Bedrock\Users\` 之類的地方
+
+```
+npm install @minecraft/server
+npm install @minecraft/server-ui
+npm install typescript
+```
+
+npm 套件請確保與行為包 manifest.json 裡面的版本相符，不然可能會有一些不能用、可以用但沒出現的問題
+https://www.npmjs.com/package/@minecraft/server?activeTab=versions
   
 ## JS
+知道基本用法
 - basic usage
-- know async/ await/ then
 - parseInt/ parseFloat
-- JSON.stringify/ JSON.parse
 - Math
-- Map, Set, List
+- JSON.stringify/ JSON.parse
 - Template Literal `${}`
+- Map, Set, List
+- ?. ??
 - try catch
-- ?. ?? 
+- async/ await/ then
 
 ## TS
-- some type like Record<>
-- tsc/ tsc -w
+知道基本用法
+- some type like `Record<string, number>`
 
-## VSC
+到 `./scripts` 資料夾開啟終端機，輸入指令 `npx tsc`，它就會根據 `tsconfig.json` 將 `src` 裡面的 ts 轉成 js 放到 `dist`
+```
+npx tsc
+```
+
+使用 watch 模式自動在儲存時編譯
+```
+npx tsc -w
+```
+
+## VSC useful hotkey
 - ctrl + 左鍵 : 移至定義
 - alt + I : 觸發建議(我從 ctrl 改成 alt, 因為會跟 AI 衝突)
 - ctrl + / : 單行註解

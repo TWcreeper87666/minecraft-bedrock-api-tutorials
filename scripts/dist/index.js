@@ -33,4 +33,3 @@ system.beforeEvents.startup.subscribe(({ customCommandRegistry }) => {
         return { status: CustomCommandStatus.Failure };
     });
 });
-console.log("test");
