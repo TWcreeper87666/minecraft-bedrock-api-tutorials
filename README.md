@@ -6,6 +6,8 @@
 - https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/developer-tools?view=minecraft-bedrock-stable
 - `@minecraft/server` https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/minecraft-server?view=minecraft-bedrock-stable
 
+- `Bedrock Wiki` https://wiki.bedrock.dev/scripting/script-server
+
 ## BEHAVIOR PACK
 - change uuid https://www.uuidgenerator.net/
 - 設定 > 創作者 > 啟用內容記錄 GUI
