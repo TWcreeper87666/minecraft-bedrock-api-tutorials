@@ -46,7 +46,7 @@ system.beforeEvents.startup.subscribe(({ customCommandRegistry }) => {
         });
       });
 
-      return { status: CustomCommandStatus.Failure };
+      return { status: CustomCommandStatus.Success };
     },
   );
 });
