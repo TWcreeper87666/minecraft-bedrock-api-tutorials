@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "byTWc",
+        "name": "腳本 API 教學",
+        "uuid": "8ea29b15-d0f0-4ed2-a2d9-df2712abb2bb",
+        "version": [
+            8,
+            7,
+            6
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            60
+        ]
+    },
+    "modules": [
+        {
+            "uuid": "09a1bd90-d4ad-4747-9b3b-1473e403b471",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/dist/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ]
+}
